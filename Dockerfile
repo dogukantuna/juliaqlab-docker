@@ -1,5 +1,5 @@
 # juliaqlab-docker
-# Fundamental Jupyter Notebook setup with CUDA support for quantum programming in the Julia programming language.
+# Fundamental setup for quantum programming lab in Julialang with CUDA support
 # Version: 0.1
 
 FROM nvidia/cuda:11.0-cudnn8-devel-ubuntu18.04
