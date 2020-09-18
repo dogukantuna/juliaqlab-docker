@@ -45,7 +45,7 @@ RUN julia -e 'Pkg.init()' && \
     julia -e 'Pkg.update()' && \
     julia -e 'Pkg.add("Yao")' && \
     julia -e 'Pkg.add("QuantumLab")' && \
-	  julia -e 'Pkg.add("QuantumInformation")' && \
+    julia -e 'Pkg.add("QuantumInformation")' && \
     julia -e 'Pkg.add("QuantumOptics")' && \
     julia -e 'Pkg.add("Quante")' && \
     julia -e 'Pkg.add("Iterators")' && \
