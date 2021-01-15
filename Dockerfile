@@ -2,11 +2,11 @@
 # Fundamental setup for quantum programming lab in Julialang with CUDA support
 # Version: 0.1
 
-FROM nvidia/cuda:11.0-cudnn8-devel-ubuntu18.04
+FROM nvidia/cuda:11.1.1-base-ubuntu20.04
 
-MAINTAINER Doğukan Tuna <contact@dogukantuna.com>
+MAINTAINER Doğukan Tuna <hi@dogukantuna.com>
 
-ARG JULIA_VER=1.5.1
+ARG JULIA_VER=1.5.3
 ARG JULIA_URL=https://julialang-s3.julialang.org/bin/linux/x64/1.5
 ARG JUPYTER_PW=pw
 ARG USER_ID=3003
