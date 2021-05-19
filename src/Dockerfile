@@ -1,8 +1,10 @@
-# juliaqlab-docker
-# Fundamental setup for quantum programming lab in Julialang with CUDA support
-# Version: 0.1
+# QLABJulia
+# Fundamental setup for quantum programming lab in JuliaLang with CUDA support
+# Version: 0.2
 
-FROM nvidia/cuda:11.1.1-base-ubuntu20.04
+# CUDA Documentation
+# CUDA Toolkit Documentation v11.3.0: https://docs.nvidia.com/cuda/
+FROM nvidia/cuda:11.3.0-base-ubuntu20.04
 
 MAINTAINER Doğukan Tuna <hi@dogukantuna.com>
 
