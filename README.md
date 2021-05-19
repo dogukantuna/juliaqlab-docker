@@ -1,4 +1,4 @@
-# juliaqlab-docker
+# QLABJulia
 Fundamental setup for quantum programming lab in JuliaLang with CUDA support
 
 ## Build
